@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body>
+	<section>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color"></div>
+	
+	<div class="box">
+	<div class="container">
+		<div class="form-box">
+			<h2>Application Form</h2>
+			
+				<label>First Name</label>
+				<input type="text" placeholder="Enter Your Name" id="first_name" class="input"><br>
+				<label>Last Name</label>
+				<input type="text" placeholder="Your Last Name" id="last_name" class="input"><br>
+				<label>Address &nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="text" placeholder="Address" id="address"class="input"><br>
+				<label>Pincode &nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="text" placeholder="Pincode" id="pincode"class="input"><br>
+				<label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label class="name">Male</label>
+				<input type="radio" name="gender" class="radio" value="Male">
+				<label class="name">Female</label>
+				<input type="radio" name="gender" class="radio" value="Female"><br>
+				<label> Food</label>&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label class="food">Veg</label>
+				<input type="checkbox" id="food" name="food" value="Veg">
+				<label class="food">Non-Veg</label>
+				<input type="checkbox" id="food" name="food" value="Non-Veg">
+				<label class="food">Chinese</label>
+				<input type="checkbox" id="food" name="food" value="Chinese"><br>
+				<label>State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="text" id="state" placeholder="State" class="input"><br>
+				<label>Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="text" id="country"placeholder="country" class="input"><br>
+				<input type="submit" value="Submit" onclick="formSubmit()">
+			
+		</div>
+	</div>
+</div>
+</section>
+<section class="sec_2">
+	<table class="table_box">
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Address</th>
+			<th>Pincode</th>
+			<th>Gender</th>
+			<th>Food</th>
+			<th>State</th>
+			<th>Country</th>
+		</tr>
+		<tr>
+			<td id="td1"></td>
+			<td id="td2"></td>
+			<td id="td3"></td>
+			<td id="td4"></td>
+			<td id="td5"></td>
+			<td id="td6"></td>
+			<td id="td7"></td>
+			<td id="td8"></td>
+		</tr>
+	</table> 
+	<input type="reset" value="Reset" onclick="reset()">
+	
+	
+</section>
+</body>
+<script src="script.js"></script>
+</html>
